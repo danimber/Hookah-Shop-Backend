@@ -3,18 +3,14 @@ package ua.hookahshop.ilyaanddanya.dto;
 import lombok.Data;
 
 @Data
-public class ProductDTO {
+public class CategoryDTO {
 
     private String name;
-    private Short amount;
-    private Long categoryId;
 
     @Override
     public String toString() {
-        return "ProductDTO{" +
+        return "CategoryDTO{" +
                 "name='" + name + '\'' +
-                ", amount=" + amount +
-                ", categoryId=" + categoryId +
                 '}';
     }
 }

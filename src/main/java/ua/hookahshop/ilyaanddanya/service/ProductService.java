@@ -13,17 +13,22 @@ import java.util.List;
 public class ProductService {
 
     private final ProductRepository  productRepository;
+    private final CategoryService categoryService;
 
     public Product create(ProductDTO dto) {
-        Product product = Product.builder()
+        return productRepository.save(Product.builder()
                 .name(dto.getName())
                 .amount(dto.getAmount())
-                .build();
-        return productRepository.save(product);
+                .category(categoryService.readCategoryById(dto.getCategoryId()))
+                .build());
     }
 
     public List<Product> readAll() {
         return productRepository.findAll();
+    }
+
+    public List<Product> readProductsByCategoryId(Long id) {
+        return productRepository.findByCategoryId(id);
     }
 
     public Product update(Long id, Product product) {

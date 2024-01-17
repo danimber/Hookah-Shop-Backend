@@ -12,35 +12,44 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
+@RequestMapping("/products/api")
 @AllArgsConstructor
 public class ProductRestController {
 
     private final ProductService productService;
 
-    @PostMapping("/api/product/createProduct")
+    @PostMapping("/createProduct")
     public ResponseEntity<List<Product>> createAndReadAll(@RequestBody ProductDTO dto) {
         productService.create(dto);
         List<Product> updatedProducts = productService.readAll();
         return new ResponseEntity<>(updatedProducts, HttpStatus.OK);
     }
 
-    @GetMapping("/api/product/readAllProducts")
+    @GetMapping("/readAllProducts")
     public ResponseEntity<List<Product>> readAll() {
-        return new ResponseEntity<>(productService.readAll(), HttpStatus.OK);
+        return mappingResponseListProducts(productService.readAll());
     }
 
-    @PutMapping("/api/product/updateProduct/{id}")
+    @GetMapping("/category/{id}")
+    public ResponseEntity<List<Product>> readProductsByCategoryId(@PathVariable Long id) {
+        return mappingResponseListProducts(productService.readProductsByCategoryId(id));
+    }
+
+    @PutMapping("/updateProduct/{id}")
     public ResponseEntity<List<Product>> update(@PathVariable Long id, @RequestBody Product product) {
         productService.update(id, product);
         List<Product> updatedProducts = productService.readAll();
-        return new ResponseEntity<>(updatedProducts, HttpStatus.OK);
+        return mappingResponseListProducts(updatedProducts);
     }
 
-    @DeleteMapping("/api/deleteById/{id}")
+    @DeleteMapping("/deleteById/{id}")
     public ResponseEntity<List<Product>> delete(@PathVariable Long id) {
         productService.delete(id);
         List<Product> updatedProducts = productService.readAll();
         return new ResponseEntity<>(updatedProducts, HttpStatus.OK);
     }
 
+    private ResponseEntity<List<Product>> mappingResponseListProducts(List<Product> products) {
+        return new ResponseEntity<>(products, HttpStatus.OK);
+    }
 }

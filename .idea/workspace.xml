@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4727244-4f6d-4260-9fed-3cca7cce807b" name="Changes" comment="" />
+    <list default="true" id="b4727244-4f6d-4260-9fed-3cca7cce807b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/ProductRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/service/ProductService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,16 +38,24 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2b0ZkPETkhQ3wbRx6ZRZfEpz0ko" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.IlyaAndDanyaApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ideaProjects/Hookah-Shop-Backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideaProjects/googlemaps&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,6 +106,11 @@
       <option name="presentableId" value="Default" />
       <updated>1705354099108</updated>
       <workItem from="1705354100154" duration="605000" />
+      <workItem from="1705406954758" duration="4374000" />
+      <workItem from="1705446171058" duration="612000" />
+      <workItem from="1705447910114" duration="10000" />
+      <workItem from="1705449447242" duration="7000" />
+      <workItem from="1705523937076" duration="949000" />
     </task>
     <servers />
   </component>
