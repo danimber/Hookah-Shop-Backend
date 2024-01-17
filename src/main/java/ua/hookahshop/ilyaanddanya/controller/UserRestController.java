@@ -13,23 +13,24 @@ import java.util.List;
 @CrossOrigin
 @RestController
 @AllArgsConstructor
+@RequestMapping("/api/users")
 public class UserRestController {
 
     private final UserService userService;
 
-    @PostMapping("/api/user/createUser")
+    @PostMapping("/createUser")
     public ResponseEntity<List<User>> createAndReadAll(@RequestBody UserDTO dto) {
         userService.create(dto);
         List<User> updateUsers = userService.readAll();
         return new ResponseEntity<>(updateUsers, HttpStatus.OK);
     }
 
-    @GetMapping("/api/user/readAllUsers")
+    @GetMapping("/readAllUsers")
     public ResponseEntity<List<User>> readAll() {
         return new ResponseEntity<>(userService.readAll(), HttpStatus.OK);
     }
 
-    @PutMapping("/api/user/updateUser/{id}")
+    @PutMapping("/updateUser/{id}")
     public ResponseEntity<List<User>> update(@PathVariable Long id, @RequestBody User user) {
         userService.update(id, user);
         List<User> updateUsers = userService.readAll();

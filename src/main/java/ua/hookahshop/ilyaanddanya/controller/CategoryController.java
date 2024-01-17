@@ -12,7 +12,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/categories/api")
+@RequestMapping("/api/categories")
 @AllArgsConstructor
 public class CategoryController {
 

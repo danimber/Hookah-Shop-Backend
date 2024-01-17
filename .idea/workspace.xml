@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4727244-4f6d-4260-9fed-3cca7cce807b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/dto/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/ProductRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/dto/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/UserRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +102,7 @@
       <workItem from="1705446171058" duration="612000" />
       <workItem from="1705447910114" duration="10000" />
       <workItem from="1705449447242" duration="7000" />
-      <workItem from="1705523937076" duration="949000" />
+      <workItem from="1705523937076" duration="2564000" />
     </task>
     <servers />
   </component>
