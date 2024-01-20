@@ -30,9 +30,9 @@ public class ProductRestController {
         return mappingResponseListProducts(productService.readAll());
     }
 
-    @GetMapping("/category/{id}")
-    public ResponseEntity<List<Product>> readProductsByCategoryId(@PathVariable Long id) {
-        return mappingResponseListProducts(productService.readProductsByCategoryId(id));
+    @GetMapping("/category/{name}")
+    public ResponseEntity<List<Product>> readProductsByCategoryName(@PathVariable String name) {
+        return mappingResponseListProducts(productService.readProductsByCategoryName(name));
     }
 
     @PutMapping("/updateProduct/{id}")
