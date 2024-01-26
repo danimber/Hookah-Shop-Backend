@@ -8,6 +8,8 @@ public class ProductDTO {
     private String name;
     private Short amount;
     private Long categoryId;
+    private String imgHref;
+    private Short price;
 
     @Override
     public String toString() {
@@ -15,6 +17,8 @@ public class ProductDTO {
                 "name='" + name + '\'' +
                 ", amount=" + amount +
                 ", categoryId=" + categoryId +
+                ", imgHref='" + imgHref + '\'' +
+                ", price=" + price +
                 '}';
     }
 }

@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4727244-4f6d-4260-9fed-3cca7cce807b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/SpaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/ProductRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/restController/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/restController/ProductRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/restController/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/entity/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hookahshop/ilyaanddanya/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,10 +117,25 @@
       <workItem from="1705523937076" duration="5887000" />
       <workItem from="1705607661196" duration="212000" />
       <workItem from="1705775481052" duration="1411000" />
+      <workItem from="1705845827197" duration="6105000" />
+      <workItem from="1705938624936" duration="1156000" />
+      <workItem from="1705960248552" duration="92000" />
+      <workItem from="1706224307387" duration="118000" />
+      <workItem from="1706297636976" duration="6081000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

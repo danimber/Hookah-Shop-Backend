@@ -1,4 +1,4 @@
-package ua.hookahshop.ilyaanddanya.controller;
+package ua.hookahshop.ilyaanddanya.restController;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

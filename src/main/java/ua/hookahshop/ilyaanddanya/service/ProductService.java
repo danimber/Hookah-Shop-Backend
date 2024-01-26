@@ -20,6 +20,8 @@ public class ProductService {
                 .name(dto.getName())
                 .amount(dto.getAmount())
                 .category(categoryService.readCategoryById(dto.getCategoryId()))
+                .price(dto.getPrice())
+                .imgHref(dto.getImgHref())
                 .build());
     }
 

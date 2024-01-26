@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Category {
 
     @Id
